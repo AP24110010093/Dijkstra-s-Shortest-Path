@@ -1,0 +1,122 @@
+# 🚗 Dijkstra Shortest Path GUI
+
+Dijkstra Shortest Path GUI is a Python-based project designed to find the shortest path between nodes in a weighted graph using Dijkstra’s Algorithm. This project helps users build custom graphs, add weighted connections, and visually calculate the most efficient route between two points through an interactive graphical interface.
+
+---
+
+## 📌 Project Description
+
+The program allows users to:
+- Enter source and destination nodes
+- Add weighted edges between nodes
+- Build a custom graph dynamically
+- Find the shortest path between two nodes
+- Display total minimum distance
+- Show optimized route path
+
+This project is useful for understanding graph traversal, shortest pathfinding, and route optimization in transportation systems, networking, and logistics.
+
+---
+
+## ✨ Features
+
+- User-friendly GUI using Tkinter
+- Dynamic node and edge creation
+- Weighted graph support
+- Undirected graph implementation
+- Dijkstra shortest path calculation
+- Route path display
+- Distance calculation
+- Clear/reset functionality
+
+---
+
+## 🛠️ Technologies Used
+
+- Python Programming
+- Tkinter
+- Heapq (Priority Queue)
+- Dijkstra’s Algorithm
+- Graph Data Structures
+
+---
+
+## 📂 How It Works
+
+1. User enters source node
+2. User enters destination node
+3. User inputs edge weight
+4. User adds edges to build graph
+5. User selects start node
+6. User selects end node
+7. Program runs Dijkstra’s Algorithm
+8. Displays shortest route and distance
+
+---
+
+## ▶️ Example Input
+
+From Node: A  
+To Node: B  
+Weight: 4  
+
+From Node: A  
+To Node: C  
+Weight: 2  
+
+From Node: C  
+To Node: B  
+Weight: 1  
+
+Start Node: A  
+End Node: B  
+
+---
+
+## 📤 Example Output
+
+Shortest Distance: 3  
+
+Path:  
+A -> C -> B  
+
+---
+
+## 📊 Time Complexity
+
+- Dijkstra’s Algorithm: O((V + E) log V)
+
+Where:
+- V = Number of Vertices
+- E = Number of Edges
+
+---
+
+## 🎯 Applications
+
+- GPS Navigation Systems
+- Road Route Optimization
+- Delivery Route Planning
+- Network Routing
+- Railway Systems
+- Communication Networks
+
+---
+
+## 🚀 Future Enhancements
+
+- Directed graph support
+- Visual graph representation
+- Save/load graph data
+- Traffic-aware pathfinding
+- Map integration
+- Enhanced GUI design
+
+---
+
+## 👨‍💻 Conclusion
+
+Dijkstra Shortest Path GUI demonstrates how Dijkstra’s Algorithm efficiently solves shortest path problems in weighted graphs. By combining algorithmic efficiency with a graphical interface, this project serves as an excellent educational and practical tool for learning path optimization and graph theory.
+
+---
+**Developed for academic and learning purposes using Python Programming and Tkinter.**
